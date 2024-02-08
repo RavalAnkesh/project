@@ -1,0 +1,43 @@
+/* Categories.css */
+
+.cat-container {
+  margin-top: 20px;
+}
+
+.cat-container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(215, 236, 239); /* Light background color */
+  padding: 2px;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cat-container div:hover {
+  background-color: #e0e0e0; /* Slight change on hover */
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+span.category {
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 0 8px;
+  background-color: rgb(116, 185, 170); /* Attractive Blue */
+  color: #fff; /* White text */
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+span.category:hover {
+  background-color: #2b5c49; /* Darker shade on hover */
+}
+
+span.category:first-child {
+  background-color: #5cb85c; /* Pleasant Green color for "All Categories" */
+}
+
+span.category:first-child:hover {
+  background-color: #4cae4c; /* Darker shade on hover for "All Categories" */
+}
